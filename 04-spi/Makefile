@@ -1,6 +1,6 @@
 include $(PWD)/../config.mk
 
-obj-m += input-custom.o
+obj-m += Tspi.o
 all:
 	$(CMD) modules
 clean:

@@ -1,6 +1,6 @@
 include $(PWD)/../config.mk
 
-obj-m += input-custom.o
+obj-m += Tleds.o
 all:
 	$(CMD) modules
 clean:
